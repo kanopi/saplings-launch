@@ -1,0 +1,21 @@
+name: 'Saplings - Launch'
+description: 'Configures best practices for launching modern Drupal.'
+type: 'Site'
+install:
+  # Core modules
+  - tour
+  # Contrib modules
+  - launch_checklist
+  - resource_hints
+  - seo_checklist
+  - scanner
+  - seckit
+  - security_review
+  - unused_modules
+config:
+  import:
+    # Contrib.
+    launch_checklist: '*'
+    resource_hints: '*'
+    scanner: '*'
+    security_review: '*'
