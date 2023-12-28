@@ -17,7 +17,7 @@
         "drupal/scanner": "^1.0@RC",
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^2.0",
-        "drupal/unused_modules": "^1.5",
+        "drupal/unused_modules": "^1.5"
     },
     "suggest": {
         "kanopi/gin-admin-experience": "A simple Drupal Recipe for installing and configuring the Gin admin theme and supporting base modules.",
