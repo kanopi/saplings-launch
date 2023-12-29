@@ -5,6 +5,7 @@ install:
   # Core modules
   - tour
   # Contrib modules
+  - clamav
   - launch_checklist
   - resource_hints
   - seo_checklist
@@ -15,6 +16,7 @@ install:
 config:
   import:
     # Contrib.
+    clamav: '*'
     launch_checklist: '*'
     resource_hints: '*'
     scanner: '*'
