@@ -21,3 +21,11 @@ config:
     resource_hints: '*'
     scanner: '*'
     security_review: '*'
+  actions:
+    # Set permissions for content editor role.
+    user.role.content_editor:
+      ensure_exists:
+        id: content_editor
+      grantPermissions:
+        - 'edit launch_checklist checklistapi checklist'
+        - 'edit seo_checklist checklistapi checklist'
