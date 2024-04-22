@@ -11,6 +11,6 @@ Welcome to the Saplings Launch repository! This repository contains best practic
 
 ## Contribution
 
-Contributions to this repository are not currently accepted.
+Please open an issue or pull request if you find an issue or have a suggestion!
 
 Thank you for using Saplings Launch. Happy site launching!
