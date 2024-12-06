@@ -1,16 +1,20 @@
-# Saplings Launch
+![saplings](https://github.com/kanopi/saplings/assets/5177009/a6377e32-deb2-49d8-873a-f3dd5a36fa7c)
 
-## Overview
+# Saplings - Launch
 
-Welcome to the Saplings Launch repository! This repository contains best practices for launching and maintaining a live site using Saplings.
+Configures best practices for launching modern Drupal.
+
 
 ## Features
 
-- Provides guidelines and recommendations for launching and maintaining a live Saplings site.
-- Helps ensure smooth deployment and ongoing management of Saplings-based websites.
+Installs and configures the following modules:
 
-## Contribution
-
-Please open an issue or pull request if you find an issue or have a suggestion!
-
-Thank you for using Saplings Launch. Happy site launching!
+- clamav
+- launch_checklist
+- resource_hints
+- seo_checklist
+- scanner
+- seckit
+- security_review
+- tour
+- unused_modules
