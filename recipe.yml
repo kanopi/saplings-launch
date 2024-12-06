@@ -4,6 +4,7 @@ type: 'Site'
 install:
   - clamav
   - launch_checklist
+  - remove_http_headers
   - resource_hints
   - seo_checklist
   - scanner
