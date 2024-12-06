@@ -10,6 +10,7 @@ install:
   - scanner
   - seckit
   - security_review
+  - site_audit
   - tour
   - unused_modules
 config:

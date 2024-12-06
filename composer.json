@@ -20,6 +20,7 @@
         "drupal/scanner": "^1.0@RC",
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^2.0",
+        "drupal/site_audit": "^4.1",
         "drupal/unused_modules": "^1.5"
     },
     "suggest": {
