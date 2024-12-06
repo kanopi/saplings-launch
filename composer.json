@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "drupal/clamav": "*",
+        "drupal/clamav": "^2.0",
+        "drupal/core": ">=10.4",
         "drupal/launch_checklist": "^1.1",
         "drupal/resource_hints": "1.x-dev",
         "drupal/seo_checklist": "^5.2",

@@ -2,9 +2,6 @@ name: 'Saplings - Launch'
 description: 'Configures best practices for launching modern Drupal.'
 type: 'Site'
 install:
-  # Core modules
-  - tour
-  # Contrib modules
   - clamav
   - launch_checklist
   - resource_hints
@@ -12,19 +9,17 @@ install:
   - scanner
   - seckit
   - security_review
+  - tour
   - unused_modules
 config:
+  strict: false
   import:
-    # Contrib.
-    clamav: '*'
-    launch_checklist: '*'
-    resource_hints: '*'
-    scanner: '*'
-    security_review: '*'
+    launch_checklist:
+      - tour.tour.launch-checklist
   actions:
     # Set permissions for content editor role.
     user.role.content_editor:
-      ensure_exists:
+      createIfNotExists:
         id: content_editor
       grantPermissions:
         - 'edit launch_checklist checklistapi checklist'
