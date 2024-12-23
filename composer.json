@@ -11,15 +11,15 @@
         }
     ],
     "require": {
-        "drupal/clamav": "^4",
+        "drupal/clamav": "4.x-dev@dev",
         "drupal/core": ">=10.4",
         "drupal/launch_checklist": "^1.1",
         "drupal/remove_http_headers": "^2.1",
         "drupal/resource_hints": "1.x-dev",
         "drupal/seo_checklist": "^5.2",
-        "drupal/scanner": "^2",
+        "drupal/scanner": "^2.0@beta'",
         "drupal/seckit": "^2.0",
-        "drupal/security_review": "^2.0",
+        "drupal/security_review": "^3",
         "drupal/site_audit": "^4.1",
         "drupal/unused_modules": "^1.5"
     },
