@@ -17,7 +17,7 @@
         "drupal/remove_http_headers": "^2.1",
         "drupal/resource_hints": "1.x-dev",
         "drupal/seo_checklist": "^5.2",
-        "drupal/scanner": "^2.0@beta'",
+        "drupal/scanner": "^2.0@beta",
         "drupal/seckit": "^2.0",
         "drupal/security_review": "^3",
         "drupal/site_audit": "^4.1",
