@@ -1,6 +1,8 @@
 name: 'Saplings - Launch'
 description: 'Configures best practices for launching modern Drupal.'
 type: 'Site'
+recipes:
+  - core/recipes/content_editor_role
 install:
   - clamav
   - launch_checklist
@@ -21,8 +23,6 @@ config:
   actions:
     # Set permissions for content editor role.
     user.role.content_editor:
-      createIfNotExists:
-        id: content_editor
       grantPermissions:
         - 'edit launch_checklist checklistapi checklist'
         - 'edit seo_checklist checklistapi checklist'
