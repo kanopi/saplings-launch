@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "drupal/clamav": "4.x-dev@dev",
+        "drupal/clamav": "^2.1",
         "drupal/core": ">=10.4",
         "drupal/launch_checklist": "^1.1",
         "drupal/remove_http_headers": "^2.1",
